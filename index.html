@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>API</title>
+  </head>
+  <body>
+    <button class="btn" onclick="fetchData()">Show Data</button>
+    <button class="btn" onclick="sortData()">Sort Data</button>
+    <input type="number" placeholder="search here" value="" id="searchValue" />
+    <button class="btn" onclick="searchData()">Click Me</button>
+    <span id="search"></span>
+    <div id="temp-display">
+      <table>
+        <tr class="tr">
+          <td id="temp"></td>
+          <td id="feels-like"></td>
+          <td id="max-temp"></td>
+          <td id="pressure"></td>
+          <td id="min-temp"></td>
+          <td id="humidity"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="async.js"></script>
+</html>

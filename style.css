@@ -1,0 +1,28 @@
+.btn {
+  margin: auto;
+  border: 2px solid green;
+  border-radius: 10px;
+  font-size: larger;
+}
+.btn:hover {
+  background-color: blueviolet;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+#temp-display {
+  display: none;
+}
+.search {
+  font-weight: bold;
+}
